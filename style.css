@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,rgb(56, 183, 206),pink);
+   
+}
+.outer-box span{
+    font-size: 30px;
+    font-family:  sans-serif;
+    color: rgb(238, 12, 50);
+    font-weight: bold;
+    padding: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+.outer-box span:hover{
+    color: rgb(238, 12, 50);
+}
+.inner-box{
+    width: 300px;
+    margin:0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+    padding: 20px 40px;
+    /* background-color: #ffffff09; */
+    background: linear-gradient(to top right,rgb(253, 253, 253), #ffffff09);
+    /* backdrop-filter: blur(4px); */
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px  rgb(221, 55, 83);
+    z-index: 2;
+}
+.signup-header h1{
+    font-size: 40px;
+    color: rgb(221, 55, 83);
+    text-align: center;
+}
+.signup-body{
+    margin:20px 0;
+}
+.signup-body p {
+    margin: 10px 0;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.signup-body p input[type="submit"]{
+    background-color: rgb(240, 91, 115) ;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color:  rgb(221, 55, 83) ;
+}
+.signup-footer{
+    color: #555;
+    text-align: center;
+}
+.signup-footer p a{
+    color: rgb(221, 55, 83) ;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to top right,rgb(37, 140, 158),white);
+    position: absolute; 
+}
+.c1{
+    top: 50px;
+    left: 40px;
+
+}
+.c2{
+    bottom: 200px;
+    right:50px;
+}
+input:focus{
+    outline: none;
+}
